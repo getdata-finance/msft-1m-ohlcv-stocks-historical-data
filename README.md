@@ -1,6 +1,6 @@
 # MSFT 1m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_208_632_rows-blue)](https://getdata.finance/datasets/msft) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/msft)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_209_132_rows-blue)](https://getdata.finance/datasets/msft) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/msft)
 
 ### -> [**Download the full MSFT dataset on getdata.finance**](https://getdata.finance/datasets/msft)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1m OHLCV** for **Microsoft** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/msft) · **1,208,632** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/msft) · **1,209,132** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `MSFT_1m.csv` (55,440 rows, `2026-02-06` -> `2026-09-01`, 5.35 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **1,208,632** `1m` rows (full `1m`: 634,891), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `MSFT_1m.csv` (55,440 rows, `2026-02-10` -> `2026-09-04`, 5.35 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **1,209,132** `1m` rows (full `1m`: 634,891), **11 timeframes**, `2011-05-09` -> `2026-09-04`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Microsoft · US stocks | Microsoft · US stocks |
 | Timeframes | `1m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 55,440 | **1,208,632** |
+| 1m rows | 55,440 | **1,209,132** |
 | Size | 5.35 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
-| Period | `2026-02-06` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| Period | `2026-02-10` -> `2026-09-04` | `2011-05-09` -> `2026-09-04` |
 | File | `MSFT_1m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
 | Coverage report | — | [MSFT coverage](https://getdata.finance/coverage/msft) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`MSFT_1m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-06T19:54:00+00:00 | 398.25 | 398.26 | 398.03 | 398.23 | 96 |
-| 2026-02-06T19:55:00+00:00 | 398.23 | 398.32 | 397.95 | 397.95 | 170 |
-| 2026-02-06T19:56:00+00:00 | 397.95 | 398.06 | 397.75 | 398.03 | 172 |
-| 2026-02-06T19:57:00+00:00 | 398.03 | 398.35 | 397.99 | 398.08 | 139 |
-| 2026-02-06T19:58:00+00:00 | 398.08 | 398.3 | 397.97 | 398.3 | 98 |
+| 2026-02-10T15:14:00+00:00 | 420.69 | 420.81 | 420.34 | 420.65 | 256 |
+| 2026-02-10T15:15:00+00:00 | 420.65 | 420.75 | 420.09 | 420.09 | 209 |
+| 2026-02-10T15:16:00+00:00 | 420.09 | 420.24 | 419.81 | 419.99 | 247 |
+| 2026-02-10T15:17:00+00:00 | 419.99 | 420.06 | 419.64 | 419.77 | 216 |
+| 2026-02-10T15:18:00+00:00 | 419.77 | 420.26 | 419.6 | 420.23 | 238 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-01T19:55:00+00:00 | 500.36 | 500.4 | 499.93 | 500.05 | 151 |
-| 2026-09-01T19:56:00+00:00 | 500.05 | 500.11 | 499.79 | 500 | 136 |
-| 2026-09-01T19:57:00+00:00 | 500 | 500.03 | 499.71 | 499.94 | 170 |
-| 2026-09-01T19:58:00+00:00 | 499.94 | 500.12 | 499.75 | 500.03 | 180 |
-| 2026-09-01T19:59:00+00:00 | 500.03 | 500.87 | 499.89 | 500.48 | 229 |
+| 2026-09-04T19:55:00+00:00 | 499.93 | 499.93 | 499.44 | 499.66 | 147 |
+| 2026-09-04T19:56:00+00:00 | 499.66 | 499.73 | 499.1 | 499.52 | 177 |
+| 2026-09-04T19:57:00+00:00 | 499.52 | 499.59 | 499.1 | 499.37 | 215 |
+| 2026-09-04T19:58:00+00:00 | 499.37 | 499.43 | 499.1 | 499.1 | 170 |
+| 2026-09-04T19:59:00+00:00 | 499.1 | 499.42 | 498.64 | 499.42 | 334 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **MSFT** archive on **[getdata.finance](https://getdata.finance/datasets/msft)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,208,632** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **MSFT** archive on **[getdata.finance](https://getdata.finance/datasets/msft)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,209,132** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full MSFT dataset on getdata.finance](https://getdata.finance/datasets/msft)**
 
